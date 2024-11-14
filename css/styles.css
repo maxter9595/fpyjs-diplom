@@ -153,9 +153,13 @@ i.icon.asterisk.loading {
 .uploaded-previewer-modal .image-preview-container .buttons-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .uploaded-previewer-modal .image-preview-container .ui.labeled.icon.button > .icon {
   background: none;
+}
+
+.buttons-wrapper > .ui.labeled.icon.button {
+  margin-bottom: 10px;
 }
